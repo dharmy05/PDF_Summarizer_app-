@@ -1,9 +1,11 @@
 <?php
-// process.php
 
 // Load Composer autoloader (this makes smalot/pdfparser available)
 // require __DIR__ . './vendor/autoload.php';
 require __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 require 'summarizer.php';
 

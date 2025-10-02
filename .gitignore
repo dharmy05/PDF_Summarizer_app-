@@ -1,0 +1,11 @@
+# Sensitive files
+# config.php
+.env
+
+# Uploaded PDFs
+uploads/*
+!uploads/.gitkeep
+
+# Composer dependencies
+/vendor/
+composer.lock
