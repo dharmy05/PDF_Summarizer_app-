@@ -1,6 +1,3 @@
-Got it 🙂 — here’s a more **human-sounding README** you can use instead of the structured one. It’s still clear and helpful, but feels like a person wrote it for other devs:
-
----
 
 ```markdown
 # 📄 PDF Summarizer
